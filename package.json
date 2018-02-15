@@ -1,6 +1,6 @@
 {
   "name": "mazegen",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "2D top-side scrolling maze game.\"",
   "main": "index.js",
   "scripts": {
