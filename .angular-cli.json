@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "mg"
+    "name": "trilliangular-pixijs"
   },
   "apps": [
     {
@@ -21,7 +21,11 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/pixi.js/dist/pixi.min.js",
+        "../node_modules/pixi-tilemap/bin/pixi-tilemap.js",
+        "../node_modules/planck-js/dist/planck.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
